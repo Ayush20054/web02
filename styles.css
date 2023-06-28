@@ -1,0 +1,123 @@
+/* Reset default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #13bd15;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: larger;
+    
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    width: 150px;
+
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar li {
+      margin: 5px 0;
+    }
+  
+    .search-bar input[type="text"] {
+      width: 100%;
+    }
+  }
+  .button{
+    font-size: larger;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .video-container {
+    max-width: 100%;
+    height: auto;
+  }
+  footer {
+    background-color: #0ecf15;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:  10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: larger;
+  }
+  
+  .footer-links ul li {
+    margin-right: 20px;
+    font-size: larger;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-bottom {
+    margin-top: 10px;
+    text-align: center;
+    color: #5822af;
+    font-size: larger;
+  }
+  
